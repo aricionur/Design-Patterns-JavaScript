@@ -4,7 +4,7 @@ function Car(model, year, miles) {
   this.miles = miles
 }
 
-// Car.prototype.toString = () => this.model + " has done " + this.miles + " miles."  // arrow fucntions not binding 'this'
+// Car.prototype.toString = () => this.model + " has done " + this.miles + " miles."  // arrow fucntions are not binding 'this'
 Car.prototype.toString = function () {
   return this.model + " has done " + this.miles + " miles."
 }

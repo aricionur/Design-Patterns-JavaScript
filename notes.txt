@@ -1,0 +1,5 @@
+- Module Pattern
+    - Utilizes 'immediatily-invoked function expressions'
+    - Provides privacy
+    - Heavily used in Yahoos YUI library
+
