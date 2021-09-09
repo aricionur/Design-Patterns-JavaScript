@@ -6,7 +6,7 @@ const basketModule = (() => {
     //...
   }
 
-  function doSomethingPrivate() {
+  function doSomethingElsePrivate() {
     //...
   }
 
