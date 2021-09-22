@@ -3,3 +3,6 @@
     - Provides privacy
     - Heavily used in Yahoos YUI library
 
+- Mediator Pattern
+    - A real-world analogy could be a typical airport traffic control system. A tower (Mediator) handles what planes can take off and land because all communications (notifications being listened out for or broadcast) are done from the planes to the control tower, rather than from plane-to-plane. A centralized controller is key to the success of this system and that's really the role a Mediator plays in software design.
+
