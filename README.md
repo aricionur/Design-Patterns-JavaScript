@@ -3,5 +3,4 @@
 References:
 
 - Learning JavaScript Design Patterns : A book by Addy Osmani
-
-NOT: Patterns are implemented with JavaScript functions, not with ES2015 native support for classes,
+- Node.js Design Patterns: Third Edition by Mario Casciaro and Luciano Mammino.
