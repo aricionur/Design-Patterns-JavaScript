@@ -1,8 +1,8 @@
 import ini from "ini"
 
 export const iniStrategy = {
-  serialize: ini.parse,
-  deserialize: ini.stringify,
+  serialize: ini.stringify,
+  deserialize: ini.parse,
 }
 
 export const jsonStrategy = {

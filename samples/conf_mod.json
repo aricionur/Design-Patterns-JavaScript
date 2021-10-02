@@ -1,1 +1,4 @@
-{"book":{"nodejs":"design patterns"}}
+{
+  "name": "test",
+  "book": "JS Design Patterns"
+}

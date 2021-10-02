@@ -17,7 +17,7 @@ export class OfflineState {
     console.log("Trying to connect...")
 
     this.failsafeSocket.socket = jsonOverTcp.connect(this.failsafeSocket.options, () => {
-      console.log("Connectin Established")
+      console.log("Connection Established")
       this.failsafeSocket.socket.removeListener("error", retry)
       this.failsafeSocket.changeState("online")
     })
