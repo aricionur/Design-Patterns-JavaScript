@@ -26,3 +26,26 @@
 
     On the Node.js side, one notable API accepting an iterable is stream.Readable.from(iterable, [options]) ( nodejsdp.link/readable-from ), 
     which creates a readable stream out of an iterable object.
+
+-Generator Pattern
+    - To define a generator function, we need to use the function* declaration (the function keyword followed by an asterisk):
+    function * myGenerator () {
+    // generator body
+    // yield "asdf" // return this value then pause
+    // yield "asdf" // return this value then pause
+    // yield "asdf" // return this value then pause
+    // return "asdf" // return this value then function stopped
+    }
+
+    - Invoking a generator function will not execute its body immediately. 
+      Rather, it will return a generator object, which, as we already mentioned, is both an iterator and an iterable.
+
+    - Two other extra features:
+        throw() : 
+        return() : forces to terminate generator
+
+
+
+
+
+
