@@ -4,5 +4,25 @@
     - Heavily used in Yahoos YUI library
 
 - Mediator Pattern
-    - A real-world analogy could be a typical airport traffic control system. A tower (Mediator) handles what planes can take off and land because all communications (notifications being listened out for or broadcast) are done from the planes to the control tower, rather than from plane-to-plane. A centralized controller is key to the success of this system and that's really the role a Mediator plays in software design.
+    - A real-world analogy could be a typical airport traffic control system. 
+      A tower (Mediator) handles what planes can take off and land because all communications (notifications being listened out for or broadcast) are done from the planes to the control tower, rather than from plane-to-plane.
+      A centralized controller is key to the success of this system and that's really the role a Mediator plays in software design.
 
+
+- Iterator Pattern
+    - ( nodejsdp.link/tree-traversal )
+    - In JavaScript, however, iterators work great even with other types of constructs, which are not necessarily containers, such as event emitters and streams.
+      Therefore, we can say in more general terms that the Iterator pattern defines an interface to iterate over elements produced or retrieved in sequence
+    - The @@name convention indicates a well-known symbol according to the ES6 specification. To find out more, you can check out the relative section of the ES6 specification at nodejsdp.link/es6-well-known-symbols.
+
+    The following are some JavaScript built-in APIs accepting iterables:
+    • Map([iterable]) : nodejsdp.link/map-constructor
+    • WeakMap([iterable]) : nodejsdp.link/weakmap-constructor
+    • Set([iterable]) : nodejsdp.link/set-constructor
+    • WeakSet([iterable]) : nodejsdp.link/weakset-constructor
+    • Promise.all(iterable) : nodejsdp.link/promise-all
+    • Promise.race(iterable) : nodejsdp.link/promise-race
+    • Array.from(iterable) : nodejsdp.link/array-from
+
+    On the Node.js side, one notable API accepting an iterable is stream.Readable.from(iterable, [options]) ( nodejsdp.link/readable-from ), 
+    which creates a readable stream out of an iterable object.
