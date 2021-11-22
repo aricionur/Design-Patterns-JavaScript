@@ -44,8 +44,8 @@
         throw() : 
         return() : forces to terminate generator
 
-
-
-
-
+- Middleware Pattern
+  - Express: A wellkown Middleware pattern
+  - If you want to know more about the Intercepting Filter pattern, the following article is a good starting point: 
+    nodejsdp.link/intercepting-filter. Similarly, a nice overview of the Chain of Responsibility pattern is available
 
